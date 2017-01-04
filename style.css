@@ -1,0 +1,27 @@
+body {
+  font-family: sans-serif;
+}
+
+h4 {
+  color: brown;
+  font-size: 25px;
+}
+
+p {
+  color: gray;
+}
+
+a {
+  color: #b200b2;
+}
+
+.funny-sneakers-paragraph {
+  color: #b200b2;
+  text-decoration: underline;
+  background: #FF6700;
+}
+
+h6 {
+  color: white;
+  font-size: 20px;
+}
