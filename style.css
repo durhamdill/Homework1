@@ -2,17 +2,26 @@ body {
   font-family: sans-serif;
 }
 
-h4 {
-  color: brown;
-  font-size: 25px;
-}
-
-p {
-  color: gray;
+h1 {
+  font-size: 60px;
 }
 
 a {
   color: #b200b2;
+}
+
+.header-paragraph {
+  color: white;
+  background: #FF6700;
+}
+
+.text-paragraph {
+  color: gray;
+}
+
+h4 {
+  color: brown;
+  font-size: 25px;
 }
 
 .funny-sneakers-paragraph {
@@ -24,9 +33,4 @@ a {
 h6 {
   color: white;
   font-size: 20px;
-}
-
-.header-paragraph {
-  color: white;
-  background: #FF6700;
 }
