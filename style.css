@@ -7,30 +7,34 @@ h1 {
 }
 
 a {
-  color: #b200b2;
+  color: #551a8b;
 }
 
 .header-paragraph {
   color: white;
-  background: #FF6700;
+  background: #ff512f;
 }
 
 .text-paragraph {
-  color: gray;
+  color: #ae9797;
 }
 
 h4 {
-  color: brown;
+  color: #503226;
   font-size: 25px;
 }
 
 .funny-sneakers-paragraph {
   color: #b200b2;
   text-decoration: underline;
-  background: #FF6700;
+  background: #ff512f;
 }
 
 h6 {
   color: white;
   font-size: 20px;
+}
+
+span {
+  color:#ae9797;
 }
