@@ -1,40 +1,49 @@
 body {
   font-family: sans-serif;
+  /* note: set font style for page */
 }
 
 h1 {
   font-size: 60px;
+  /* note: headline font stlye */
 }
 
 a {
   color: #551a8b;
+  /* note: purple link style */
 }
 
 .header-paragraph {
   color: white;
   background: #ff512f;
+  /* note: white paragraph text in top section */
 }
 
 .text-paragraph {
   color: #ae9797;
+  /* note: gray body copy in middle section */
 }
 
 h4 {
   color: #503226;
   font-size: 25px;
+  /* note: brown headers in middle section */
 }
 
 .funny-sneakers-paragraph {
   color: #b200b2;
   text-decoration: underline;
   background: #ff512f;
+  /* note: purple underlined text with orange background */
 }
 
 h6 {
   color: white;
   font-size: 20px;
+  /* note: sub-head font style */
 }
 
 span {
   color:#ae9797;
+  /* note: gray body copy in footer */
 }
