@@ -1,11 +1,11 @@
 body {
   font-family: 'Raleway', sans-serif;
+  margin-left: 15px;
   /* note: set font style for page */
 }
 
 .logo {
   margin-top: 15px;
-  margin-left: 15px;
 }
 
 h1 {
@@ -38,51 +38,26 @@ a {
 .navigation {
   color: #ff512f;
   text-transform: uppercase;
-}
-
-.men-nav {
   display: inline-block;
-  margin-left: 15px;
   margin-right: 15px;
   margin-bottom: 0;
 }
 
 .women-nav {
   color: magenta;
-  display: inline-block;
-  margin-right: 15px;
-  margin-bottom: 0;
   padding-bottom: 5px;
   border-bottom:2px solid magenta;
-}
-
-.boys-nav {
-  display: inline-block;
-  margin-bottom: 0;
-  padding-right: 15px;
-}
-
-.girls-nav {
-  display: inline-block;
-  margin-bottom: 0;
-  padding-right: 15px;
-}
-
-.customize-nav {
-  display: inline-block;
-  margin-bottom: 0;
-  padding-right: 15px;
 }
 
 .sub-navigation {
   color: #ff512f;
   text-transform: capitalize;
+  display: inline-block;
+  padding-right: 15px;
 }
 
 .help-nav {
-  display: inline-block;
-  margin-left: 15px;
-  padding-right: 15px;
+
 }
 
 .account-nav {
