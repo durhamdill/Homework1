@@ -3,6 +3,11 @@ body {
   /* note: set font style for page */
 }
 
+.logo {
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
 h1 {
   font-size: 60px;
   margin-bottom: 0;
@@ -122,6 +127,14 @@ h4 {
   color: #503226;
   font-size: 25px;
   /* note: brown headers in middle section */
+}
+
+.recommended {
+  background: gray;
+  margin: 0;
+  height:50px;
+  line-height:50px;
+  text-align: center;
 }
 
 .funny-sneakers-paragraph {
