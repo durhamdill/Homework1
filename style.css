@@ -9,14 +9,28 @@ h1 {
 }
 
 a {
-  color: #551a8b;
+  /* color: #551a8b; */
   /* note: purple link style */
 }
 
 .header-paragraph {
   color: white;
   background: #ff512f;
+  padding: 50px 250px
   /* note: white paragraph text in top section */
+}
+
+.intro-blurb {
+  line-height: 30px;
+  border-bottom:2px dashed brown;
+  border-top:2px dashed brown;
+  padding:20px 0;
+  width:850px;
+}
+
+.buy-button {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px
 }
 
 .text-paragraph {
