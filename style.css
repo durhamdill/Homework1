@@ -5,6 +5,7 @@ body {
 
 h1 {
   font-size: 60px;
+  margin-bottom: 0;
   /* note: headline font stlye */
 }
 
@@ -20,6 +21,12 @@ a {
   /* note: white paragraph text in top section */
 }
 
+.spring-summer {
+  color: brown;
+  text-transform: uppercase;
+  margin-bottom:30px;
+}
+
 .intro-blurb {
   line-height: 30px;
   border-bottom:2px dashed brown;
@@ -28,9 +35,21 @@ a {
   width:850px;
 }
 
+.price {
+  padding: 5px 10px 5px 0;
+  display: inline-block;
+}
+
 .buy-button {
+  color: #ff512f;
   font-family: 'Raleway', sans-serif;
-  font-size: 20px
+  font-size: 15px;
+  text-transform: uppercase;
+  padding: 5px;
+  border-radius: 10px;
+  width:120px;
+  height:40px;
+  display: inline-block;
 }
 
 .text-paragraph {
