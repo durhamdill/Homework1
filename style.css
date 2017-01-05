@@ -15,8 +15,24 @@ h1 {
 }
 
 a {
-  /* color: #551a8b; */
-  /* note: purple link style */
+  color: #ae9797;
+}
+
+.price {
+  verical-align: top;
+}
+
+.dollar-sign {
+  display: inline-block;
+}
+
+.dollar-amount {
+  font-size: 30px;
+  display: inline-block;
+}
+
+.zeros {
+  display: inline-block;
 }
 
 .navigation {
@@ -79,6 +95,10 @@ a {
   padding-right: 15px;
 }
 
+.back {
+  text-transform: uppercase;
+}
+
 .header-paragraph {
   color: white;
   background: #ff512f;
@@ -130,7 +150,7 @@ h4 {
 }
 
 .recommended {
-  background: gray;
+  background: #ae9797;;
   margin: 0;
   height:50px;
   line-height:50px;
@@ -151,7 +171,7 @@ h6 {
   /* note: sub-head font style */
 }
 
-span {
+.footer-nav {
   color:#ae9797;
-  /* note: gray body copy in footer */
+  margin-left: 15px;
 }
