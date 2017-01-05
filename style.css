@@ -14,6 +14,66 @@ a {
   /* note: purple link style */
 }
 
+.navigation {
+  color: #ff512f;
+  text-transform: uppercase;
+}
+
+.men-nav {
+  display: inline-block;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 0;
+}
+
+.women-nav {
+  color: magenta;
+  display: inline-block;
+  margin-right: 15px;
+  margin-bottom: 0;
+  padding-bottom: 5px;
+  border-bottom:2px solid magenta;
+}
+
+.boys-nav {
+  display: inline-block;
+  margin-bottom: 0;
+  padding-right: 15px;
+}
+
+.girls-nav {
+  display: inline-block;
+  margin-bottom: 0;
+  padding-right: 15px;
+}
+
+.customize-nav {
+  display: inline-block;
+  margin-bottom: 0;
+  padding-right: 15px;
+}
+
+.sub-navigation {
+  color: #ff512f;
+  text-transform: capitalize;
+}
+
+.help-nav {
+  display: inline-block;
+  margin-left: 15px;
+  padding-right: 15px;
+}
+
+.account-nav {
+  display: inline-block;
+  padding-right: 15px;
+}
+
+.cart-nav {
+  display: inline-block;
+  padding-right: 15px;
+}
+
 .header-paragraph {
   color: white;
   background: #ff512f;
@@ -54,6 +114,7 @@ a {
 
 .text-paragraph {
   color: #ae9797;
+  padding: 50px 250px;
   /* note: gray body copy in middle section */
 }
 
@@ -64,8 +125,8 @@ h4 {
 }
 
 .funny-sneakers-paragraph {
-  color: #b200b2;
-  text-decoration: underline;
+  color: white;
+  padding: 50px 250px;
   background: #ff512f;
   /* note: purple underlined text with orange background */
 }
@@ -73,6 +134,7 @@ h4 {
 h6 {
   color: white;
   font-size: 20px;
+  margin-bottom: 0;
   /* note: sub-head font style */
 }
 
