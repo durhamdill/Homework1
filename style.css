@@ -1,11 +1,15 @@
 body {
   font-family: 'Raleway', sans-serif;
-  margin-left: 15px;
   /* note: set font style for page */
+}
+
+.header {
+  margin-left: 20px;
 }
 
 .logo {
   margin-top: 15px;
+  width: 80px;
 }
 
 h1 {
@@ -14,36 +18,25 @@ h1 {
   /* note: headline font stlye */
 }
 
-a {
-  color: #ae9797;
-}
-
 .price {
-  verical-align: top;
+  font-size: 15px;
+  display: inline-block;
+  margin-bottom: 2px;
 }
 
-.dollar-sign {
+.price-big {
+  font-size: 25px;
   display: inline-block;
 }
 
-.dollar-amount {
-  font-size: 30px;
-  display: inline-block;
-}
-
-.zeros {
-  display: inline-block;
-}
-
-.navigation {
-  color: #ff512f;
+.nav-item {
   text-transform: uppercase;
-  display: inline-block;
   margin-right: 15px;
-  margin-bottom: 0;
+  margin-bottom: 0;color: #ff512f;
+  display: inline-block;
 }
 
-.women-nav {
+.nav-item-select {
   color: magenta;
   padding-bottom: 5px;
   border-bottom:2px solid magenta;
@@ -56,20 +49,6 @@ a {
   padding-right: 15px;
 }
 
-.help-nav {
-
-}
-
-.account-nav {
-  display: inline-block;
-  padding-right: 15px;
-}
-
-.cart-nav {
-  display: inline-block;
-  padding-right: 15px;
-}
-
 .back {
   text-transform: uppercase;
 }
@@ -77,27 +56,24 @@ a {
 .header-paragraph {
   color: white;
   background: #ff512f;
-  padding: 50px 250px
+  padding: 50px 250px;
   /* note: white paragraph text in top section */
 }
 
 .spring-summer {
   color: brown;
+  font-size: 14px;
   text-transform: uppercase;
-  margin-bottom:30px;
+  margin-top: 0px;
 }
 
 .intro-blurb {
   line-height: 30px;
   border-bottom:2px dashed brown;
   border-top:2px dashed brown;
-  padding:20px 0;
+  padding: 20px 0;
+  margin: 30px 0;
   width:850px;
-}
-
-.price {
-  padding: 5px 10px 5px 0;
-  display: inline-block;
 }
 
 .buy-button {
@@ -132,21 +108,38 @@ h4 {
   text-align: center;
 }
 
-.funny-sneakers-paragraph {
+.shop-shoes {
   color: white;
-  padding: 50px 250px;
   background: #ff512f;
+  padding: 50px 250px;
   /* note: purple underlined text with orange background */
 }
+
+.shoe-image {
+  display: inline-block;
+  width: 250px
+}
+
+.shoe-info {
+  display: inline-block;
+  margin-right: 50px;
+}
+
 
 h6 {
   color: white;
   font-size: 20px;
-  margin-bottom: 0;
+  margin-bottom: 2px;
+  margin-right: 10px;
+  display: inline-block;
   /* note: sub-head font style */
+}
+
+.footer {
+  margin-left: 20px;
 }
 
 .footer-nav {
   color:#ae9797;
-  margin-left: 15px;
+  display: inline-block;
 }
