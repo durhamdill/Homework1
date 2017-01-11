@@ -7,9 +7,18 @@ body {
   margin-left: 20px;
 }
 
+.grad {
+  background: rgb(255,32,125); /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left,rgb(255,32,125),rgb(255,81,47)); /*Safari 5.1-6*/
+  background: -o-linear-gradient(right,rgb(255,32,125),rgb(255,81,47)); /*Opera 11.1-12*/
+  background: -moz-linear-gradient(right,rgb(255,32,125),rgb(255,81,47)); /*Fx 3.6-15*/
+  background: linear-gradient(to right, rgb(255,32,125), rgb(255,81,47)); /*Standard*/
+}
+
 .logo {
   margin-top: 15px;
-  width: 80px;
+  margin-right: 5px;
+  width: 60px;
 }
 
 h1 {
@@ -20,8 +29,8 @@ h1 {
 
 .price {
   font-size: 15px;
-  display: inline-block;
   margin-bottom: 2px;
+  display: inline-block;
 }
 
 .price-big {
@@ -29,10 +38,15 @@ h1 {
   display: inline-block;
 }
 
+.align-nav {
+  /* margin: 10px; */
+  float: left;
+}
+
 .nav-item {
   text-transform: uppercase;
   margin-right: 15px;
-  margin-bottom: 0;color: #ff512f;
+  color: #ff512f;
   display: inline-block;
 }
 
@@ -40,6 +54,10 @@ h1 {
   color: magenta;
   padding-bottom: 5px;
   border-bottom:2px solid magenta;
+}
+
+.align-sub-nav {
+  float: right;
 }
 
 .sub-navigation {
@@ -53,17 +71,34 @@ h1 {
   text-transform: uppercase;
 }
 
+
 .header-paragraph {
   color: white;
-  background: #ff512f;
+  /* background: #ff512f; */
   padding: 50px 250px;
+  float: left;
   /* note: white paragraph text in top section */
+}
+
+.header-block1 {
+  float: left;
+}
+
+.header-image {
+  width: 400px;
+  margin-right: 10px;
+}
+
+.header-block2 {
+  width: 500px;
+  float: left;
 }
 
 .spring-summer {
   color: brown;
   font-size: 14px;
   text-transform: uppercase;
+  letter-spacing: 2px;
   margin-top: 0px;
 }
 
@@ -73,7 +108,6 @@ h1 {
   border-top:2px dashed brown;
   padding: 20px 0;
   margin: 30px 0;
-  width:850px;
 }
 
 .buy-button {
@@ -91,6 +125,7 @@ h1 {
 .text-paragraph {
   color: #ae9797;
   padding: 50px 250px;
+  clear: both;
   /* note: gray body copy in middle section */
 }
 
@@ -110,7 +145,7 @@ h4 {
 
 .shop-shoes {
   color: white;
-  background: #ff512f;
+  /* background: #ff512f; */
   padding: 50px 250px;
   /* note: purple underlined text with orange background */
 }
